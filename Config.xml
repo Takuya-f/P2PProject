@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project name="P2PProject">
+  <Archfile>
+    <Path Attribute="\P2PProject\bin\pp.arch"/>
+  </Archfile>
+  <ClassDiagram/>
+  <DataflowDiagram/>
+  <SequenceDiagram/>
+  <SourceCode>
+    <Path Attribute="\P2PProject\src\State.java"/>
+    <Path Attribute="\P2PProject\src\Node.java"/>
+    <Path Attribute="\P2PProject\src\Main.java"/>
+  </SourceCode>
+  <ARXML>
+    <Path Attribute="\P2PProject\codeXML.xml"/>
+  </ARXML>
+</Project>

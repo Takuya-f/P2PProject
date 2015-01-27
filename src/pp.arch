@@ -1,0 +1,13 @@
+interface component Node{
+	boolean start();
+	boolean cancel();
+	boolean completed();
+}
+
+interface uncertain u_Node extends Node{
+	[boolean share();]
+	[boolean peersDone();]
+}
+
+Node = (Node.start -> Node.completed -> Node);
+u_Node extends Node = (Node.start -> [u_Node.share] -> [u_Node.peersDone] -> Node.cancel -> Node);
